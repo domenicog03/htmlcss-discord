@@ -195,3 +195,36 @@ header {
     font-size: 16px;
     padding: 10px 22px;
 }
+
+
+main section:nth-child(2n) {
+    background-color: #f6f6f6;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.box-text {
+    padding-top: 40px;
+}
+
+main section:nth-child(2n) .box-image {
+    text-align: right;
+}
+
+main section:last-child {
+    text-align: center;
+}
+main section:last-child img {
+    width: 100%;
+}
+
+.stars {
+    background-image: url('img/stars.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+}
+
+
